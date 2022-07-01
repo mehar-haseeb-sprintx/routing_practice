@@ -1,11 +1,9 @@
 import React from "react";
-import Routing from "./routes";
-
-
+import Home from './pages/home'
 const App = () => {
   return (
     <>
-      <Routing />
+      <Home />
     </>
   );
 };
